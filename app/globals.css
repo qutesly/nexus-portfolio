@@ -55,6 +55,31 @@ body {
   border: 1px solid red;
 }
 
+/* .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+} */
+
+.embla {
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  will-change: transform;
+}
+
+.embla__slide {
+  position: relative;
+  flex: 0 0 auto;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(0.145 0 0);
@@ -123,6 +148,7 @@ body {
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 }
+
 
 @layer base {
   * {

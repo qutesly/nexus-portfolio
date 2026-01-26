@@ -5,10 +5,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex flex-col">
-      <div className="w-full h-full flex flex-col mt-6 mb-30 md:mb-40 lg:mb-20 xl:mb-10">
+      <div className="w-full h-full flex flex-col mt-6 mb-35 md:mb-40 lg:mb-20 xl:mb-10">
         {" "}
         <div className="flex flex-col lg:flex-row items-start justify-between gap-2 relative w-full  xl:h-218.5">
-          <h1 className="w-full md:w-151.5 h-max xl:h-56.5 text-[30px]  xl:text-[52px] mt-0 lg:mt-12 font-normal">
+          <h1 className="w-full md:w-151.5 h-max xl:h-56.5 text-[35px]  xl:text-[52px] mt-0 lg:mt-12 font-normal">
             LUXURY DESIGN UNIQUE, DURABLE COMFORTABLE CHAIRS.
           </h1>
 
@@ -22,20 +22,20 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute right-0 top-0 xl:top-5 2xl:top-0">
-              <button className="flex items-center justify-between gap-4 p-2 sm:px-8  md:px-6 lg:p-1 xl:px-4  py-2 2xl:w-52.75 bg-white rounded-full cursor-pointer">
-                <p className="text-black text-[12px] md:text-[14px] xl:text-[20px]">
+            <div className="absolute -right-1 md:right-0 top-0 xl:top-5 2xl:top-0">
+              <button className="flex items-center justify-between gap-4 px-2 md:px-5 lg:p-1 xl:px-4 py-1.5 xl:py-3 2xl:w-52.75 bg-white rounded-full cursor-pointer">
+                <p className="text-black text-[13px] sm:text-[13px] md:text-[14px] xl:text-[20px]">
                   Contact Us
                 </p>
                 <div className="bg-black rounded-full p-1 lg:p-2">
-                  <MoveUpRight className="w-3 h-3 xl:w-5 xl:h-5" />
+                  <MoveUpRight className="w-2.5 h-2.5 xl:w-5 xl:h-5" />
                 </div>
               </button>
             </div>
           </div>
           <div className="absolute hidden sm:block left-[38%] lg:left-[35%] 2xl:left-[39.2%] sm:bottom-[20%] md:bottom-[16%] lg:bottom-[20%] xl:bottom-[26.1%]  -translate-x-1/2 ">
             <div className="flex items-center justify-center gap-6 p-2 overflow-hidden">
-              <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.7">
+              <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.75">
                 <Image
                   src="/images/small-chair-1.png"
                   alt="small chair"
@@ -51,7 +51,7 @@ const Hero = () => {
                   className="object-contain"
                 />
               </div>
-              <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.7">
+              <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.75">
                 <Image
                   src="/images/small-chair-3.png"
                   alt="small chair"

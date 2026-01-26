@@ -5,7 +5,7 @@ import React from "react";
 const HeroBottom = () => {
   return (
     <div className="w-full mb-20 md:mb-30">
-      <div className="flex flex-col lg:flex-row items-center gap-4.5">
+      <div className="flex flex-col lg:flex-row items-center gap-2">
         <div className="relative w-full xl:w-168.75 h-67.5 ">
           <Image
             src="/images/bottomImg.png"
