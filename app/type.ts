@@ -9,11 +9,16 @@ export type LinksType = {
 export type LinkType = LinksType[];
 
 export type ImagesType = {
-  id: number;
-  name: string;
-  image: string;
-  type: string;
-  amount: string;
+  id?: number;
+  name?: string;
+ reviewPerson?: string;
+  image?: string;
+  type?: string;
+  amount?: string;
+  job?: string;
+  review?: string;
+  personImg: string | undefined;
+  reviewImg?: string;
 };
 
 export type ImageType = ImagesType[];

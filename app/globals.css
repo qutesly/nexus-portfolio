@@ -51,9 +51,9 @@ body {
   font-family: var(--font-k2d) Arial, Helvetica, sans-serif;
 }
 
-.border {
+/* .border {
   border: 1px solid red;
-}
+} */
 
 /* .no-scrollbar::-webkit-scrollbar {
   display: none;

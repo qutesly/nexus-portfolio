@@ -21,20 +21,20 @@ const Footer = () => {
         <div className="flex flex-col gap-2">
           <p className="text-[16px] mb-2">Sit City</p>
           {Links.map((link) => (
-            <Link href="" key={link.name} className="text-white/60">
+            <Link href="" key={link.name} className="text-white/60 cursor-pointer hover:underline">
               {link.name}
             </Link>
           ))}
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-[16px] mb-2">LEGAL</p>
-          <Link href="/" className="text-white/60 cursor-pointer">
+          <Link href="/" className="text-white/60 cursor-pointer hover:underline">
             Terms and condition
           </Link>
-          <Link href="/" className="text-white/60">
+          <Link href="/" className="text-white/60 cursor-pointer hover:underline">
             License and Agreements
           </Link>
-          <Link href="/" className="text-white/60">
+          <Link href="/" className="text-white/60 cursor-pointer hover:underline">
             Payment and Install
           </Link>
         </div>
@@ -85,11 +85,7 @@ const Footer = () => {
           </div>
           <div className="relative w-40 sm:w-55 md:w-75 lg:w-87.5 aspect-5/1">
             {" "}
-            <Image
-              src="/images/SITCITY.png"
-              alt="sitcity logo"
-            fill
-            />
+            <Image src="/images/SITCITY.png" alt="sitcity logo" fill />
           </div>
         </div>
       </div>

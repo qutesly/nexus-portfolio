@@ -6,6 +6,7 @@ import DiscoverSection from "./components/DiscoverSection";
 import Footer from "./components/Footer";
 import DescriptionSection from "./components/DescriptionSection";
 import LargeImage from "./components/LargeImage";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <div className="mx-2 my-4 p-2">
         <DescriptionSection />
         <LargeImage />
+        <Reviews />
       </div>
       <div className="mx-2 my-4 p-2">
         {" "}
