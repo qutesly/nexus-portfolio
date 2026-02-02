@@ -1,10 +1,13 @@
+'use client';
+
 import { MoveUpRight } from "lucide-react";
 import Image from "next/image";
-import React from "react";
 
 const Hero = () => {
+
+
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-hidden">
       <div className="w-full h-full flex flex-col mt-6 mb-35 md:mb-40 lg:mb-20 xl:mb-10">
         {" "}
         <div className="flex flex-col lg:flex-row items-start justify-between gap-2 relative w-full  xl:h-218.5">
@@ -12,8 +15,8 @@ const Hero = () => {
             LUXURY DESIGN UNIQUE, DURABLE COMFORTABLE CHAIRS.
           </h1>
 
-          <div className="relative w-full h-120 xl:w-173 xl:h-218.5">
-            <div className="flex items-start w-full">
+          <div className="relative w-full h-120 xl:w-173 xl:h-218.5" data-aos="fade-up-left">
+            <div className="flex items-start w-full" >
               <Image
                 src="/images/heroImg.png"
                 alt=""
@@ -34,7 +37,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute hidden sm:block left-[38%] lg:left-[35%] 2xl:left-[39.2%] sm:bottom-[20%] md:bottom-[16%] lg:bottom-[20%] xl:bottom-[26.1%]  -translate-x-1/2 ">
-            <div className="flex items-center justify-center gap-6 p-2 overflow-hidden">
+            <div className="flex items-center justify-center gap-6 p-2 overflow-hidden" data-aos="zoom-in" data-aos-delay="300">
               <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.75">
                 <Image
                   src="/images/small-chair-1.png"

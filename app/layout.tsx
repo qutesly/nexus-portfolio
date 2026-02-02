@@ -1,17 +1,8 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
 import { K2D } from "next/font/google";
+import "aos/dist/aos.css";
 import "./globals.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+import AOSProvider from "./components/AOSProvider";
 
 const k2d = K2D({
   variable: "--font-k2d",
@@ -32,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${k2d.variable} antialiased`}>
-        <div className="mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-350 overflow-hidden font-k2d">
-          {children}
-        </div>
+        <AOSProvider>
+          <div className="mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-350 overflow-hidden font-k2d">
+            {children}
+          </div>
+        </AOSProvider>
       </body>
     </html>
   );
