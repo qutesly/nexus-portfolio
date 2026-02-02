@@ -25,7 +25,7 @@ const Hero = () => {
               />
             </div>
 
-            <div className="absolute -right-1 md:right-0 top-0 xl:top-5 2xl:top-0">
+            <div className="absolute right-0 md:right-0 top-0 xl:top-5 2xl:top-0">
               <button className="flex items-center justify-between gap-4 px-2 md:px-5 lg:p-1 xl:px-4 py-1.5 xl:py-3 2xl:w-52.75 bg-white rounded-full cursor-pointer">
                 <p className="text-black text-[13px] sm:text-[13px] md:text-[14px] xl:text-[20px]">
                   Contact Us
@@ -36,7 +36,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="absolute hidden sm:block left-[38%] lg:left-[35%] 2xl:left-[39.2%] sm:bottom-[20%] md:bottom-[16%] lg:bottom-[20%] xl:bottom-[26.1%]  -translate-x-1/2 ">
+          <div className="absolute hidden sm:block left-[38%] lg:left-[35%] 2xl:left-[39.2%] sm:bottom-[18%] md:bottom-[16%] lg:bottom-[20%] xl:bottom-[26.1%]  -translate-x-1/2 ">
             <div className="flex items-center justify-center gap-6 p-2 overflow-hidden" data-aos="zoom-in" data-aos-delay="300">
               <div className="relative w-30 h-25 md:w-33.75 md:h-37.5 xl:w-58.25 xl:h-43.75">
                 <Image
