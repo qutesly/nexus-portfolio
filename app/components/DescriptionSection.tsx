@@ -23,10 +23,10 @@ const DescriptionSection = () => {
             const Icon = item.icon;
             return (
               <div key={item.shortDesc} className="flex flex-col items-center text-center gap-4">
-                <div className="bg-gray-600 p-3 mb-2 rounded-md">
-                  <Icon className="" />
+                <div className="bg-gray-600 p-3 mb-2 rounded-md" data-aos="zoom-out">
+                  <Icon className="w-5 h-5" />
                 </div>
-                <h1 className="text-[19px] md:text-[text-24px] font-medium mb-2">
+                <h1 className="text-[19px] md:text-[24px] font-medium mb-2">
                   {item.shortDesc}
                 </h1>
                 <p className="text-[14px] md:text-[15px] lg:text-[17.06px] font-extralight ">
